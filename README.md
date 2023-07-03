@@ -1,2 +1,2 @@
-# github.io
-taylloneres/github.io
+# aluraFlix github.io
+esse primeiro progeto...
