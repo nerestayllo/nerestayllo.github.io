@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family= Dancing + Script:wght@500 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Tilt+Prism&display=swap');
+
+:root {
+    --font3: 'Shadows Into Light', cursive;
+    --font2: 'Tilt Prism', cursive;
+}
+.elemento {
+    filter: blur(4px);
+    transition: filter 0.3s ease;
+  }
+  
+  .elemento:hover {
+    filter: none;
+  }
+  
+  
+body {
+    background-image: url(image/anim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     color: rgb(255, 255, 255) !important;
+     margin-top: 30px;
+     font-family: var(--font3);
+     font-size: large;
+     text-align: center !important;
+     padding: 20px 40px !important;
+ }
+
+ h1 {
+    font-family: var(--font2);
+    color: rgb(115, 138, 144);
+}
+
+ h2 {
+    font-family: var(--font2);
+    color: rgb(115, 138, 144);
+}
+
+ img {
+     max-width: 300px;
+     border-style: inset;
+     border-color: #000000;
+     border-radius: 100%;
+ }
+ 
+ a {
+     text-decoration: none !important;
+     font-size: 20px;
+     color: rgb(213, 198, 215) !important;
+ }
+ footer {
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+     font-family: var(--font2);
+     color:    black;
+ } 
+ footer p:hover{
+     color: rgb(56, 2, 249);
+ }
+ 
+  
